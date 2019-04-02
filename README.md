@@ -1,1 +1,1 @@
-# templeinnandsuites.github.io
+# final-project.github.io
