@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'ZCOOL XiaoWei', serif, 'Quattrocento', serif;
+  color: black;
+  background-color: #eeeded;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bad Script', cursive, 'Patrick Hand', cursive;
+}
