@@ -22,35 +22,40 @@
   <body>
     <header>
       <div class="top-bar-container">
-        <div class="top-bar-title">
-          <h1>Temple Inn & Suites Home Page</h1>
-        </div>
         <div class="top-bar-image">
           <img
-            src="images/temple-inn-imagev2.png"
+            src="images/temple-inn-imagev3-logo.png"
             alt="logo of temple for the temple inn"
           />
         </div>
+        <div class="top-bar-title">
+          <h1 id="title-id-large">Temple Inn & Suites</h1>
+          <h1 id="title-id">Home Page</h1>
+        </div>
         <div class="nav-container">
           <nav>
-            <ul class="navigation">
-              <li>
-                <a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a>
-              </li>
-              <li><a class="active" href="index.html">Home</a></li>
-              <li><a href="temples.html">Temples</a></li>
-              <li><a href="reservations.html">Reservations</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="navigation">
+              <div id="hamburger">
+                <a href="#" title="Menu" onclick="toggleMenu()">&#9776;</a>
+              </div>
+            </div>
           </nav>
+        </div>
+        <div class="ham-div">
+          <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="temples.html">Temples</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
     </header>
     <main>
       <div class="main-container">
         <div class="main-title">
-          <h1>Temple Inn & Suites</h1>
+          <h1>Temple Inn<br />& Suites</h1>
         </div>
         <div class="call-button">
           <a href="reservations.html" target="_blank">Reserve Now</a>
@@ -69,16 +74,16 @@
               "
               alt="Barranquilla Columbia Temple Side View"
             />
-            <p>
-              <a
-                href="https://www.lds.org/temples/photo-gallery/barranquilla-colombia-temple?lang=eng"
-                >More Photos</a
-              >
-            </p>
+
+            <a
+              href="https://www.lds.org/temples/photo-gallery/barranquilla-colombia-temple?lang=eng"
+              >More Photos</a
+            >
           </div>
           <div class="home-section-summary">
-            <h3>Temple History</h3>
+            <h2>Temple History</h2>
             <p class="home-section-paragraph">
+              <br />
               The Barranquilla Colombia Temple was announced on October 1, 2011
               and dedicated on December 9, 2018. The dedication prayer can be
               found
@@ -86,11 +91,18 @@
                 href="https://www.lds.org/temples/details/barranquilla-colombia-temple/prayer/2018-12-09"
                 >here.</a
               >
-              <br /><br />
+            </p>
+            <br />
+            <p>
+              <br />
               When attending, plan accordingly by bringing your own temple
               clothing. Plan on eating nearby at a local restaurant, or bring
               your own meal to eat at a nearby park. This temple does not offer
-              cafeteria services.<br /><br />
+              cafeteria services.
+            </p>
+            <br />
+            <p>
+              <br />
               Common temple events here include sealings, weddings, receptions,
               and youth trips. No matter what will bring you here you will leave
               with joy and peace.
@@ -146,7 +158,7 @@
         </div>
         <div class="footer-credit">
           <p>
-            &copy;2019 | Temple Inn & Suites | Jeremy Hardman |
+            &copy;2019 | Temple Inn & Suites | Jeremy Hardman<br />
             <span id="currentdate"></span>
           </p>
         </div>
