@@ -51,7 +51,6 @@ ul {
 }
 .top-bar-image > img {
   max-height: 100%;
-  max-width: 100%;
   background-color: #eeeded;
 }
 .top-bar-title {
@@ -197,16 +196,19 @@ footer {
 }
 
 .footer-links-home li a:link,
-.footer-links-about li a:link {
+.footer-links-about li a:link,
+.temple-sub-gallery a:link {
   color: black;
 }
 
 .footer-links-home li a:visited,
-.footer-links-about li a:visited {
+.footer-links-about li a:visited,
+.temple-sub-gallery a:visited {
   color: #74d3ae;
 }
 .footer-links-home li a:hover,
-.footer-links-about li a:hover {
+.footer-links-about li a:hover,
+.temple-sub-gallery a:hover {
   background-color: #74d3ae;
   color: white;
 }
@@ -233,4 +235,62 @@ footer {
   grid-row: span 3;
   text-align: center;
   margin-bottom: 15px;
+}
+
+/*TEMPLE SUB PAGES*/
+
+.temple-sub-main-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.temple-sub-heading {
+  grid-column-start: span 1;
+  text-align: center;
+  align-self: center;
+  color: #74d3ae;
+  font-size: 1.9em;
+}
+.temple-sub-gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+.temple-sub-gallery img {
+  max-width: 90vw;
+  grid-column-start: span 1;
+  margin: auto;
+  text-align: center;
+  align-self: center;
+}
+
+.temple-sub-gallery a {
+  margin: 10px 10px;
+}
+
+.temple-sub-main-container a {
+  color: black;
+}
+
+.temple-sub-main-container a:link {
+  color: black;
+}
+
+.temple-sub-main-container a:visited {
+  color: #74d3ae;
+}
+.temple-sub-main-container a:hover {
+  background-color: #74d3ae;
+  color: white;
+}
+.temple-sub-contact {
+  margin: 10px 10px;
+}
+
+/*RESERVATIONS */
+
+input:required,
+textarea:required {
+  box-shadow: inset 0px 0px 6px #d2cca1;
 }
