@@ -82,6 +82,7 @@ ul {
   right: 0px;
   background: #757780;
   flex: 1;
+  z-index: 7;
 }
 
 .responsive a {
@@ -92,6 +93,7 @@ ul {
   font-size: 1.8rem;
   flex: 1;
   text-align: center;
+  z-index: 8;
 }
 
 #hamburger a {
@@ -290,7 +292,82 @@ footer {
 
 /*RESERVATIONS */
 
+.reservations-main {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  color: black;
+}
+
+.reservations-form {
+  position: absolute;
+  margin: auto;
+  text-align: end;
+  padding: 10px 10px;
+  align-self: center;
+}
+
+label,
+legend {
+  background: #0000006b;
+  padding: 2px;
+  color: white;
+}
+
+div > input {
+  margin: 5px 0;
+}
+
+.reservations-background-photo img {
+  width: 100%;
+  height: auto;
+  opacity: 0.85;
+}
+
 input:required,
 textarea:required {
-  box-shadow: inset 0px 0px 6px #d2cca1;
+  box-shadow: inset 0px 0px 6px #74d3ae;
+}
+.submit-button {
+  margin: 5px;
+}
+
+#reservation-footer {
+  margin-top: 0;
+}
+
+/*CONTACT PAGE*/
+
+.contact {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.contact-sub-heading {
+  grid-column-start: span 1;
+  text-align: center;
+  align-self: center;
+  color: #74d3ae;
+  font-size: 1.9em;
+}
+.contact-leftcol {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  text-decoration: none;
+  justify-items: center;
+}
+
+ul.contact-leftcol li img {
+  max-width: 5%;
+}
+.contact-map {
+  max-width: 90vw;
+  grid-column-start: span 1;
+  margin: auto;
+  text-align: center;
+  align-self: center;
 }

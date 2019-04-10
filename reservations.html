@@ -56,67 +56,83 @@
       <div class="reservations-background-photo">
         <img
           src="images/feliperizo-co-heart-made-505565-unsplash-reservation-medium-600.jpg"
+          sizes=""
           srcset="
+            images/feliperizo-co-heart-made-505565-unsplash-reservation-small-320.jpg  569w,
             images/feliperizo-co-heart-made-505565-unsplash-reservation-medium-600.jpg 768w,
-            images/feliperizo-co-heart-made-505565-unsplash-reservation-small-320.jpg  400w,
             images\feliperizo-co-heart-made-505565-unsplash-reservation-large-1200.jpg 992w
           "
           alt="image of hotel room"
         />
       </div>
-      <form class="form" action="thanks.html" method="get">
-        <fieldset>
-          <legend>Contact Information</legend>
+      <div class="reservations-form">
+        <form class="form" action="thanks.html" method="get">
+          <fieldset>
+            <legend>Contact Information</legend>
 
-          <div class="reservations-name">
-            <label for="name">Full Name</label>
-            <input id="name" type="text" required minlength="5" />
-          </div>
-          <div class="reservations-email">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="user@email.org" />
-          </div>
-          <div class="reservations-phone">
-            <label for="phone">Phone Number</label>
-            <input id="phone" type="tel" required />
-          </div>
-          <div class="reservations-zip">
-            <label for="zipcode">Zip Code</label>
-            <input id="zipcode" type="number" required />
-          </div>
-        </fieldset>
+            <div class="reservations-name">
+              <label for="name">Full Name</label>
+              <input id="name" type="text" required minlength="5" />
+            </div>
+            <div class="reservations-email">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="user@email.org" />
+            </div>
+            <div class="reservations-phone">
+              <label for="phone">Phone Number</label>
+              <input id="phone" type="tel" required />
+            </div>
+            <div class="reservations-zip">
+              <label for="zipcode">Zip Code</label>
+              <input id="zipcode" type="number" required />
+            </div>
+          </fieldset>
 
-        <fieldset class="chooseStay">
-          <legend>Choose Your Stay</legend>
-          <div class="reservations-date">
-            <label for="checkIn">CHECK-IN</label>
-            <input id="checkIndate" type="date" />
-            <label for="checkOut">CHECK-OUT</label>
-            <input id="checkOutdate" type="date" />
-          </div>
-          <div class="reservations-location">
-            <p>Location of Stay:</p>
-            <input list="locationdata" name="locationdata" />
-            <datalist id="locationdata">
-              <option value="Medford, OR"> </option>
-              <option value="Fresno, CA"> </option>
-              <option value="Bismark, ND"> </option>
-              <option value="Bern Switzerland"> </option>
-            </datalist>
-          </div>
-          <div class="reservations-occupants">
-            <p>
-              Number of Adults:
-              <input type="number" name="quantity" min="1" max="10" />
-              Number of Children:
-              <input type="number" name="quantity" min="1" max="10" />
-            </p>
-          </div>
-        </fieldset>
-        <button class="submit-button" type="submit">Submit</button>
-      </form>
+          <fieldset class="chooseStay">
+            <legend>Choose Your Stay</legend>
+            <div class="reservations-date">
+              <label for="checkIndate">CHECK-IN</label>
+              <input id="checkIndate" type="date" />
+              <label for="checkOutdate">CHECK-OUT</label>
+              <input id="checkOutdate" type="date" />
+            </div>
+            <div class="reservations-location">
+              <label for="locationdata">Location of Stay:</label>
+              <input list="locationdata" name="locationdata" />
+              <datalist id="locationdata">
+                <option value="Medford, OR"> </option>
+                <option value="Fresno, CA"> </option>
+                <option value="Bismark, ND"> </option>
+                <option value="Bern Switzerland"> </option>
+              </datalist>
+            </div>
+            <div class="reservations-roomType">
+              <label for="roomdata">Room type:</label>
+              <input list="roomdata" name="roomdata" />
+              <datalist id="roomdata">
+                <option value="Single Queen Suite"> </option>
+                <option value="Double Queen Suite"> </option>
+                <option value="King Suite"> </option>
+                <option value="Family Suite"> </option>
+                <option value="Bride Suite"> </option>
+              </datalist>
+              <label for="numberRooms">Rooms:</label>
+              <input type="number" name="quantity" min="1" max="10" size="3" />
+            </div>
+            <div class="reservations-occupants">
+              <label for="adultinput"> Adults:</label>
+              <input type="number" name="quantity" min="1" max="10" size="3" />
+              <label for="childinput">Children:</label>
+              <input type="number" name="quantity" min="1" max="10" size="3" />
+            </div>
+          </fieldset>
+          <button class="submit-button" type="submit">
+            Check Availability
+          </button>
+        </form>
+      </div>
     </main>
-    <footer>
+    <footer id="reservation-footer">
       <div class="footer-container">
         <div class="footer-img-logo">
           <img
