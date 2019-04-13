@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="desctiption"
+      content="Temple Inn and Suite page for CIT 230 Class. This site is inteded to show a theroretical hotel chain headquartered site to promote and manage the hotel reservations and accommodations. The site shows the elegance of the hotels, the services, as well as the terms and policies outlined by the company."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jeremy Hardman" />
+    <title>Temple Inn and Suite | Fresno Temple</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Bad+Script%7cPatrick+Hand%7cQuattrocento%7cZCOOL+XiaoWei"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="top-bar-container">
+        <div class="top-bar-image">
+          <img
+            src="images/temple-inn-imagev3-logo.png"
+            alt="logo of temple for the temple inn"
+          />
+        </div>
+        <div class="top-bar-title">
+          <h1 id="title-id-large">Temple Inn & Suites</h1>
+          <h1 id="title-id">Fresno Temple</h1>
+        </div>
+        <div class="nav-container">
+          <nav>
+            <div class="navigation">
+              <div id="hamburger">
+                <a href="#" title="Menu" onclick="toggleMenu()">&#9776;</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="ham-div">
+          <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="temples.html">Temples</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="temple-sub-main-container">
+      <h1 class="temple-sub-heading">Fresno California Temple</h1>
+      <div class="temple-sub-gallery">
+        <img src="images/fresno-small-480.jpg" alt="Fresno Temple" />
+        <a
+          href="https://www.lds.org/temples/photo-gallery/fresno-california-temple?lang=eng"
+        >
+          Photo Gallery</a
+        >
+      </div>
+      <div class="temple-sub-contact">
+        <div id="name"></div>
+        <br />
+        <h4>Address</h4>
+        <div id="address"></div>
+        <div id="country"></div>
+        <div id="telephone"></div>
+        <div class="email">
+          <a href="mailto:fresnotemple@example.com">Email Temple</a>
+        </div>
+        <br />
+        <h4>Services</h4>
+        <div id="services"></div>
+        <br />
+        <h4>Endowment Schedule</h4>
+        <div id="templework"></div>
+        <br />
+        <h4>Family Ordinance Cards</h4>
+        <div id="templedays"></div>
+        <br />
+        <h4>Closures</h4>
+        <div id="closures"></div>
+        <br />
+        <h4>Milestones</h4>
+        <div id="milestones"></div>
+        <br />
+        <div class="summary">
+          <h4>Family Ordinance Cards</h4>
+          Ordinances for family names must be done in proper sequence—baptism,
+          confirmation, Melchizedek Priesthood ordination (males), initiatory,
+          endowment, and then sealing. Please allow sufficient time to perform
+          all the ordinances you wish to complete during your visit. For
+          additional help and information, please call the temple.
+        </div>
+        <br />
+        <div class="weather">
+          <section class="weathersummary">
+            <h3 class="summarytittle">Current Weather</h3>
+            <ul>
+              <li>Temperature: <span id="currentTemp"></span> &deg;F</li>
+              <li>Condition: <span id="weatherDesc"></span></li>
+              <li>Humidity: <span id="humidity"></span> %</li>
+              <li>Wind Speed: <span id="windSpeed"></span> mph</li>
+            </ul>
+          </section>
+        </div>
+        <br />
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-img-logo">
+          <img
+            src="images/temple-inn-imagev3-logo.png"
+            alt="logo for the temple inn"
+          />
+        </div>
+        <div class="footer-links-home">
+          <h4>Home</h4>
+          <ul>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-about">
+          <h4>About</h4>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li>
+              <a href="https://www.lds.org/temples/photo-gallery?lang=eng"
+                >Temple Photos</a
+              >
+            </li>
+            <li><a href="references.html">References</a></li>
+          </ul>
+        </div>
+        <div class="footer-socialmedia">
+          <a href="https://www.facebook.com"
+            ><img
+              src="images/iconfinder_facebook_circle_black_107153.svg"
+              alt="social media facebook icon"
+          /></a>
+          <a href="https://www.pintrest.com">
+            <img
+              src="images/pinterest-iconfinder-icon.svg"
+              alt="social media pintrest icon"
+          /></a>
+          <a href="https://www.twitter.com">
+            <img
+              src="images/twitter-iconfinder-icon.svg"
+              alt="social media twitter icon"
+          /></a>
+        </div>
+        <div class="footer-credit">
+          <p>
+            &copy;2019 | Temple Inn & Suites | Jeremy Hardman<br />
+            <span id="currentdate"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/fresnoTemple.js"></script>
+    <script>
+      getWeather('5585010')
+    </script>
+    <script>
+      getfresnoTempleInfo()
+    </script>
+  </body>
+</html>

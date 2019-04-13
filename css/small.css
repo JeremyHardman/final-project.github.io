@@ -340,34 +340,94 @@ textarea:required {
 
 /*CONTACT PAGE*/
 
+.contact-title {
+  text-align: center;
+  color: #74d3ae;
+}
 .contact {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .contact-sub-heading {
   grid-column-start: span 1;
-  text-align: center;
-  align-self: center;
+  margin: 15px;
+}
+.contact-leftcol li h3 {
   color: #74d3ae;
-  font-size: 1.9em;
+  font-size: 150%;
+  margin: 15px;
 }
 .contact-leftcol {
-  display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  text-decoration: none;
-  justify-items: center;
 }
 
 ul.contact-leftcol li img {
   max-width: 5%;
 }
 .contact-map {
-  max-width: 90vw;
   grid-column-start: span 1;
-  margin: auto;
+  margin: 15px 0;
   text-align: center;
-  align-self: center;
+}
+
+/*MISSSIONARY PAGE*/
+.contact-sub-heading {
+  text-align: center;
+}
+.missionary-main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+}
+.missionary-services,
+.missionary-amenities {
+  margin: 25px;
+}
+.missionary-services li,
+.missionary-amenities li {
+  margin: 25px;
+  border-top: 5px solid #74d3ae;
+}
+
+.missionary-main-photo {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+.missionary-main-photo img {
+  padding: 15px;
+}
+
+/*WEDDING PAGE*/
+
+.wedding-title {
+  text-align: center;
+  color: #74d3ae;
+}
+
+.wedding-main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.wedding-main img {
+  width: 100vw;
+}
+.wedding-main img,
+.wedding-main h4 {
+  margin: 15px 0;
+}
+
+.wedding-main p {
+  margin: 15px 15px;
 }

@@ -1,0 +1,53 @@
+﻿{
+  "medford": {
+    "name": "Medford Oregon Temple",
+
+    "address": "3900 Grant Central Point OR 97502-3911",
+    "country": "United States",
+
+    "telephone": "(1) 541-664-2050",
+    "email": "medfordtemple@churchofjesuschrist.org",
+
+    "services": [
+      "No clothing rental available",
+      "No cafeteria available",
+      "No patron housing available",
+      "No distribution center nearby"
+    ],
+
+    "ordinance": "Endowment Schedule",
+    "ordinanceDate": "2019-04-10",
+    "ordinanceNotes": "To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 541-664-2050",
+    "endowmentDates": [
+      {
+        "date": "2019-04-10",
+        "time": "5:00 PM",
+        "type": "Walk-ins and Appointments"
+      },
+      {
+        "date": "2019-04-10",
+        "time": "7:00 PM",
+        "type": "Walk-ins and Appointments"
+      }
+    ],
+
+    "closures": [
+      {
+        "2019": [
+          "2019-07-04",
+          "2019-07-23 to 2019-09-02",
+          "2019-10-05",
+          "2019-11-27 Limited Hours",
+          "2019-11-28",
+          "2019-12-24 to 2019-12-25",
+          "2019-12-31"
+        ]
+      }
+    ],
+    "additional": "Family Ordinance Cards Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+    "milestones": {
+      "dates": ["1999-03-15", "1999-05-20", "2000-04-16"],
+      "info": ["Announced", "Groundbreaking", "Dedicated"]
+    }
+  }
+}
