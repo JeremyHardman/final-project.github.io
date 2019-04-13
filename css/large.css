@@ -57,7 +57,7 @@
 
   /*MISSSIONARY PAGE*/
 
-  .missionary-main {
+  .missionary-main .temple-sub-contact {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 50% 50%;
@@ -120,5 +120,8 @@
 
   .wedding-main p {
     margin: 15px 100px;
+  }
+  .temple-sub-contact {
+    text-align: center;
   }
 }
