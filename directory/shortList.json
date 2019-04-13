@@ -7,9 +7,7 @@
       "telephone": "(1) 541-664-2050",
       "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
       "templework": "Endowment Schedule To schedule living ordinances (such as own endowment or sealing) or group visits please call: (1) 541-664-2050",
-      "templedays": [
-        "Wednesday 24 April 2019 10: 00, AM Walk-ins and Appointments, 12: 00 PM Appointments Only, 5: 00 PM Walk-ins and Appointments, 7: 00 PM Walk-ins and Appointments"
-      ],
+      "templedays": "Wednesday 24 April 2019 10: 00, AM Walk-ins and Appointments, 12: 00 PM Appointments Only, 5: 00 PM Walk-ins and Appointments, 7: 00 PM Walk-ins and Appointments",
       "closures": "Temple Closures 2019 Thursday, 4 July 2019 Tuesday, 23 July 2019 - Monday, 2 September 2019 Saturday, 5 October 2019 Wednesday, 27 November 2019 (Limited Hours) Thursday, 28 November 2019 - Friday, 29 November 2019 Tuesday, 24 December 2019 - Wednesday, 25 December 2019 Tuesday, 31 December 2019",
       "milestones": "Milestones 15 March 1999 Announced 20 May 1999 Groundbreaking 16 April 2000 Dedicated — dedicatory prayer"
     },
@@ -23,66 +21,6 @@
       "templedays": "Wednesday, 24 April 2019 8:00 AM Walk-ins and Appointments 9:30 AM Walk-ins and Appointments 11:30 AM Walk-ins and Appointments 6:00 PM Walk-ins and Appointments",
       "closures": "Monday, 1 April 2019 - Monday, 15 April 2019 Thursday, 4 July 2019 Monday, 30 September 2019 - Monday, 14 October 2019 Wednesday, 27 November 2019 - Thursday, 28 November 2019 Tuesday, 24 December 2019 Wednesday, 25 December 2019 Tuesday, 31 December 2019",
       "milestones": "8 January 1999 Announced 20 March 1999 Groundbreaking 9 April 2000 Dedicated — dedicatory prayer"
-    },
-    {
-      "name": "Greenville",
-      "motto": "Green is our way of life.",
-      "yearFounded": 1805,
-      "currentPopulation": 33458,
-      "averageRainfall": 25,
-      "events": [
-        "February 10-12: Greenbration",
-        "May 8 - 18: Greenville Founder Days",
-        "June 20: Verde and Valiant Day",
-        "November 15-16: Greensome Gathering"
-      ]
-    },
-    {
-      "name": "Placerton",
-      "motto": "Positive Placement in Placerton.",
-      "yearFounded": 1946,
-      "currentPopulation": 512,
-      "averageRainfall": 39,
-      "events": [
-        "July 4: A Blaze of Glory",
-        "October 20: Fall through Fall"
-      ]
-    },
-    {
-      "name": "Preston",
-      "motto": "Home of Napoleon Dynamite.",
-      "yearFounded": 1866,
-      "currentPopulation": 5204,
-      "averageRainfall": 16.65,
-      "events": [
-        "March 29: Work Creek Revival",
-        "July 8-12: Napoleon Dynamite Festival",
-        "November 2-4: Freedom Days"
-      ]
-    },
-    {
-      "name": "Soda Springs",
-      "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-      "yearFounded": 1858,
-      "currentPopulation": 2985,
-      "averageRainfall": 15.75,
-      "events": [
-        "February 29: Geyser Song Day",
-        "May 1-6: Days of May Celebration",
-        "October 15-16: Octoberfest"
-      ]
-    },
-    {
-      "name": "Springfield",
-      "motto": "Where everyone is lifted.",
-      "yearFounded": 1826,
-      "currentPopulation": 17852,
-      "averageRainfall": 17,
-      "events": [
-        "January 8: Spring into Winter",
-        "April 10-20: Celebration of Life",
-        "July 31-Aug 15: Dog Days of Summer Festival"
-      ]
     }
   ]
 }
