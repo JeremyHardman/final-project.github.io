@@ -99,7 +99,8 @@
     color: #74d3ae;
   }
 
-  .wedding-main {
+  .wedding-main,
+  .templeMain {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 50% 50%;
